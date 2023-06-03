@@ -13,6 +13,7 @@ function changeRandomColor() {
 
 function stopChange() {
   clearInterval(intervalID);
+  intervalID = null;
 }
 
 document.getElementById("start").addEventListener("click", startChange);
