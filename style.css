@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+
+*,
+*::after,
+*::before{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Work Sans', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+
+}
+
+button{
+    margin-top: 16px;
+    padding: 16px;
+    border: 3px solid #345185;
+    border-radius: 5px;
+    background-color: #2b3442;
+    color: #fff;
+}
